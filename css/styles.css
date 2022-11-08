@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    width: 300px;
+    height: 200px;
+}
+
+.box1 {
+    background-image: radial-gradient(70px, red 100px, white 100px);
+    border: 2px solid black;
+}
+
+.box2 {
+    background-image: radial-gradient(60px at 110px 100px, yellow 100px, aqua 100px);
+}
+
+.box3 {
+    background-image:
+        radial-gradient(40px, white 40px, transparent), linear-gradient(to bottom, red 50px, blue 50px 150px, red 100px)
+}
+
+.box4 {
+    border: 1px solid black;
+    background-image: radial-gradient(50px at bottom center, transparent 20px, red 20px 40px, orange 40px 60px, yellow 60px 80px, green 80px 100px, blue 100px 120px, purple 120px 140px, pink 140px 160px, transparent 160px)
+}
